@@ -11,3 +11,11 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
+
+
+#monkeys {
+  background: url("https://s3.amazonaws.com/codecademy-content/projects/sass/monkeys.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
