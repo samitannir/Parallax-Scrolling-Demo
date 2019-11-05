@@ -1,0 +1,14 @@
+#monkeys {
+  @include parallax-background("https://s3.amazonaws.com/codecademy-content/projects/sass/monkeys.jpg");
+}
+
+#landscape,
+#monkeys {
+  height: $parallax-height;
+  width: 100%;
+  perspective: 1px;
+  transform: translateZ(-1px);
+  overflow: {
+    x: hidden;
+    y: auto;
+  }
