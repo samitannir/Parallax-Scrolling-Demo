@@ -4,3 +4,10 @@ body {
   padding: 0;
   font-family: Roboto;
   color: #2e3738; }
+
+#landscape {
+  background: url("https://s3.amazonaws.com/codecademy-content/projects/sass/landscape.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
